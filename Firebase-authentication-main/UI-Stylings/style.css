@@ -1,0 +1,46 @@
+body[data-page="home"],
+body[data-page="auth"] {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #eef4ff, #f8f9fa);
+}
+
+.hero {
+    max-width: 760px;
+}
+
+.auth-card {
+    max-width: 440px;
+    border: 0;
+    border-radius: 1rem;
+}
+
+body[data-page="dashboard"] {
+    min-height: 100vh;
+    background: #f5f7fb;
+}
+
+body[data-page="dashboard"] .navbar {
+    background: #fff;
+}
+
+.dashboard-main {
+    max-width: 800px;
+}
+
+.todo-card {
+    border: 0;
+    border-radius: 1rem;
+}
+
+.todo-item + .todo-item {
+    border-top: 1px solid #e9ecef;
+}
+
+.todo-title {
+    overflow-wrap: anywhere;
+}
+
+.todo-title.completed {
+    color: #6c757d;
+    text-decoration: line-through;
+}
